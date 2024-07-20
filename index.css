@@ -1,0 +1,38 @@
+body {
+    /* height: 100vh; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: red;
+    display: flex;
+    /* align-items: flex-start; */
+    padding: 10px 10px 10px 10px;
+}
+
+.header > .right-links {
+    margin: 0 0 0 auto;
+}
+
+.header ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.layer {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+
+
+
+.footer {
+    /* margin: auto 0 0 0; */
+}
