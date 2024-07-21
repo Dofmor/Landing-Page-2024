@@ -90,12 +90,18 @@ button {
     background-color: #F28C8C;
     border: none;
     color: #fff;
+    border-radius: 5px;
+    padding: 10px;
 
 }
 
 button:hover {
     background-color: #fff;
     color:#F28C8C
+}
+
+button:active {
+    transform: scale(0.95);
 }
 
 .footer {
