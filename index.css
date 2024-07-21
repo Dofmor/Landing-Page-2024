@@ -19,6 +19,7 @@ body {
     width: 50px;
     clip-path: circle();
 }
+
 .header> .right-links {
     margin: 0 0 0 auto;
 }
@@ -34,7 +35,7 @@ body {
 .layer {
     display: flex;
     justify-content: center;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .layer--one {
@@ -74,6 +75,15 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding: 20px;
+}
+
+
+.playlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
 
@@ -89,6 +99,7 @@ body {
     font-size: 50px;
     font-weight: bold;
     
+    height: 500px;
     justify-content: center;
     align-items: center;
 }
