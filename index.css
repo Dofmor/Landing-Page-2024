@@ -2,6 +2,7 @@ body {
     /* height: 100vh; */
     color: #4A5568;
     margin: 0;
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -33,9 +34,36 @@ body {
 
 .layer--one {
     background-color: #A3D9C9;
+    height: 300px;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 20px 0px 20px;
 }
-.layer--one .leftside {}
 
+@media screen and (max-width: 480px) {
+    .layer--one {
+        height: 500px;
+    }
+}
+
+.layer--one .left-side {
+    flex-grow: 1;
+    flex-basis: 160px;
+}
+
+.layer--one img {
+    width: 250px;
+    height: 250px;
+}
+
+.layer--two {
+    background-color: #F5F5F5;
+}
+
+.layer--two h2 {
+    align-self: baseline;
+}
 
 .layer--three {
     background-image: url("images/lofi-summer4.jpg");
@@ -45,18 +73,29 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+    color: #fff;
     font-size: 26px;
     font-weight: bold;
+
+    justify-content: flex-end;
 }
 
 .layer--four {
     background-color: #A3D9C9;
+    justify-content: center;
+    align-items: center;
 }
+
 button {
     background-color: #F28C8C;
     border: none;
     color: #fff;
 
+}
+
+button:hover {
+    background-color: #fff;
+    color:#F28C8C
 }
 
 .footer {
