@@ -1,18 +1,19 @@
 body {
     /* height: 100vh; */
+    color: #4A5568;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    background-color: red;
+    background-color: #EBD3A7;
     display: flex;
     /* align-items: flex-start; */
     padding: 10px 10px 10px 10px;
 }
 
-.header > .right-links {
+.header>.right-links {
     margin: 0 0 0 auto;
 }
 
@@ -30,9 +31,35 @@ body {
     height: 500px;
 }
 
+.layer--one {
+    background-color: #A3D9C9;
+}
+.layer--one .leftside {}
 
 
+.layer--three {
+    background-image: url("images/lofi-summer4.jpg");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.layer--four {
+    background-color: #A3D9C9;
+}
+button {
+    background-color: #F28C8C;
+    border: none;
+    color: #fff;
+
+}
 
 .footer {
+    background-color: #EBD3A7;
     /* margin: auto 0 0 0; */
 }
